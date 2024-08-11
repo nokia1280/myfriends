@@ -1,0 +1,147 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    padding: 20px;
+    background-color: #1e1f1e;
+}
+
+.container {
+    max-width: 65%;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: relative;
+    color: #ffffff;
+    margin-bottom: 1%;
+}
+
+.main .content-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.image-container {
+    flex: 0 0 60%;
+    margin-right: 2rem;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+img {
+    opacity: 80%;
+}
+
+.text-content {
+    flex: 1;
+    text-align: right;
+}
+
+header {
+    margin-top: 0.2rem;
+}
+
+nav {
+    max-width: 65%;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav ul li {
+    margin-left: 1rem;
+}
+
+nav ul li a {
+    color: #ecf0f1;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #64a6d2;
+}
+
+h3 {
+    color: #64a6d2;
+
+}
+
+p {
+    margin-bottom: 0.5rem;
+}
+
+/* Declaration paragraph */
+.declaration {
+    background-color: #aae7ff;
+    border-left: 4px solid #64a6d2;
+    color: #2c302c;
+}
+
+button {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-color: #64a6d2;
+    border: none;
+    color: white;
+    padding: 1% 2%;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 8px;
+    transition: color 0.3s ease;
+}
+
+button:hover {
+    background-color: #aae7ff;
+}
+
+.error-list {
+    list-style-type: none;
+}
+
+input {
+    padding: 1% 2%;
+    margin-bottom: 1%;
+    border-radius: 8px;
+    background-color: #1e1f1e;
+    color: #ffffff;
+}
+
+table {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.logout {
+    background-color: #c62819;
+}
+
+.logout:hover {
+    background-color: #f04333;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
